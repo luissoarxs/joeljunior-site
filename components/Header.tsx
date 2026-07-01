@@ -33,8 +33,8 @@ export default function Header() {
           <Image
             src="/images/logo.jpeg"
             alt="Joel Júnior — Corretor de Imóveis, CRECI 46.381-MG"
-            width={60}
-            height={60}
+            width={64}
+            height={64}
             className="rounded-sm"
             priority
           />
