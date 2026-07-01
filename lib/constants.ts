@@ -33,7 +33,7 @@ export const HERO = {
 };
 
 export const ABOUT = {
-  title: "Sobre Joel Júnior teste",
+  title: "Sobre Joel Júnior",
   // Texto institucional — edite livremente, nenhuma informação foi inventada
   paragraphs: [
     "Joel Júnior é corretor de imóveis devidamente registrado no CRECI-MG 46.381, atuando com foco em atendimento próximo, ético e consultivo.",
