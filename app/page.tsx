@@ -9,10 +9,16 @@ import CTA from "@/components/CTA";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import WhatsAppFloatButton from "@/components/WhatsAppFloatButton";
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <main className="relative">
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <title>Joel Júnior | Corretor de Imóveis — CRECI-MG 46.381</title>
+        <meta name="description" content="Joel Júnior é um corretor de imóveis, especializado em ajudar clientes a encontrar soluções imobiliárias. Com anos de experiência no mercado imobiliário, Joel oferece um serviço personalizado e confiável para garantir que cada transação seja tranquila e bem-sucedida." />
+      </Head>
       <Header />
       <Hero />
       <About />
