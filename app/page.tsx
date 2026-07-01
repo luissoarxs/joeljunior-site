@@ -9,7 +9,6 @@ import CTA from "@/components/CTA";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import WhatsAppFloatButton from "@/components/WhatsAppFloatButton";
-import Head from 'next/head'
 
 export default function Home() {
   return (

@@ -33,8 +33,8 @@ export default function Header() {
           <Image
             src="/images/logo.jpeg"
             alt="Joel Júnior — Corretor de Imóveis, CRECI 46.381-MG"
-            width={44}
-            height={44}
+            width={60}
+            height={60}
             className="rounded-sm"
             priority
           />
@@ -111,7 +111,7 @@ export default function Header() {
                 rel="noopener noreferrer"
                 className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-gold px-5 py-3 text-sm font-semibold text-white shadow-gold"
               >
-                <MessageCircle size={16} />
+                <FaWhatsapp size={16} />
                 Falar no WhatsApp
               </a>
             </nav>
