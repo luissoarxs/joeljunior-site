@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  color: #2b2b2b;
+  background-color: #ffffff;
+}
+
+::selection {
+  background-color: #c9a96e;
+  color: #ffffff;
+}
+
+/* Glassmorphism header background */
+.glass {
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+}
+
+/* Reusable section eyebrow label */
+.eyebrow {
+  font-family: var(--font-dmsans);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #c9a96e;
+}
+
+/* Focus visibility for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #c9a96e;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Thin architectural line, echoing the logo's line construction */
+.line-accent {
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, #c9a96e, transparent);
+}
