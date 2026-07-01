@@ -63,7 +63,7 @@ export default function Hero() {
             transition={{ duration: 0.6 }}
             className="eyebrow text-gold"
           >
-            Joel Júnior — CRECI 46.381-MG
+            Joel Júnior — CRECI-MG 46.381
           </motion.span>
 
           <motion.h1
