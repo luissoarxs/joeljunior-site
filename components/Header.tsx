@@ -27,7 +27,7 @@ export default function Header() {
         scrolled ? "glass shadow-soft py-3" : "bg-transparent py-5"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-10 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-3 lg:px-10 flex items-center justify-between">
         {/* Logo */}
         <a href="#inicio" className="flex items-center gap-3">
           <Image
