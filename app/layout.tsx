@@ -19,7 +19,7 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: "Joel Júnior | Corretor de Imóveis em Minas Gerais — CRECI 46.381-MG",
+  title: "Joel Júnior | Corretor de Imóveis",
   description:
     "Atendimento personalizado para compra, venda e investimento em imóveis urbanos e rurais. Casas, apartamentos, fazendas, sítios e terrenos com segurança jurídica e consultoria especializada.",
   keywords: [
