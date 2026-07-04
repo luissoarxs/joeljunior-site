@@ -76,7 +76,7 @@ export default function Footer() {
 
       <div className="border-t border-white/10 py-6">
         <p className="text-center text-xs text-white/40">
-          © {new Date().getFullYear()} Joel Júnior — Corretor de Imóveis. Todos os direitos reservados.
+          © {new Date().getFullYear()} Joel Júnior — Corretor de Imóveis. Todos os direitos reservados. | Desenvolvido por{"Luís Soares"}. "} 
         </p>
       </div>
     </footer>
